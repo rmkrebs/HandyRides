@@ -8,6 +8,7 @@ from .forms import RideForm
 # Create your views here.
 
 
+
 def index(request):
 
   context = {}
