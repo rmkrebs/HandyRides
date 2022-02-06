@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HandyRides",
+    "\\HandyRides\\HandyRides",
+    "\\HandyRides\\rides",
+    "\\HandyRides\\rides\\fixtures",
+    "\\HandyRides\\static",
+    "\\HandyRides\\templates"
+  ],
+  "SelectedNode": "\\HandyRides\\rides\\fixtures\\riders.json",
+  "PreviewInSolutionExplorer": false
+}
