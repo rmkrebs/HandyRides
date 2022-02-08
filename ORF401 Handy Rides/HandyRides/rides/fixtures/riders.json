@@ -9,8 +9,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": false,
-			"seats_available": 2,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -23,8 +23,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:30",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 2
 		}
 	},
 	{
@@ -38,7 +38,7 @@
 			"date": "2021-11-02",
 			"time": "12:30",
 			"taking_passengers": false,
-			"seats_available": 0,
+			"seats_available": 0
 		}
 	},
 	{
@@ -52,7 +52,7 @@
 			"date": "2021-11-02",
 			"time": "10:30",
 			"taking_passengers": true,
-			"seats_available": 1,
+			"seats_available": 2
 		}
 	},
 	{
@@ -66,7 +66,7 @@
 			"date": "2021-11-02",
 			"time": "11:00",
 			"taking_passengers": false,
-			"seats_available": 2,
+			"seats_available": 0
 		}
 	},
 	{
@@ -80,7 +80,7 @@
 			"date": "2021-11-02",
 			"time": "12:30",
 			"taking_passengers": true,
-			"seats_available": 0,
+			"seats_available": 4
 		}
 	},
 	{
@@ -93,8 +93,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "13:00",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 4
 		}
 	},
 	{
@@ -107,8 +107,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -121,8 +121,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:30",
-			"taking_passengers": false,
-			"seats_available": 2,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -135,8 +135,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "15:30",
-			"taking_passengers": false,
-			"seats_available": 2,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -150,7 +150,7 @@
 			"date": "2021-11-02",
 			"time": "10:00",
 			"taking_passengers": false,
-			"seats_available": 0,
+			"seats_available": 0
 		}
 	},
 	{
@@ -163,8 +163,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 2
 		}
 	},
 	{
@@ -177,8 +177,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "16:00",
-			"taking_passengers": true,
-			"seats_available": 4,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -192,7 +192,7 @@
 			"date": "2021-11-02",
 			"time": "11:00",
 			"taking_passengers": true,
-			"seats_available": 4,
+			"seats_available": 4
 		}
 	},
 	{
@@ -205,8 +205,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "16:30",
-			"taking_passengers": true,
-			"seats_available": 3,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -220,7 +220,7 @@
 			"date": "2021-11-02",
 			"time": "13:00",
 			"taking_passengers": true,
-			"seats_available": 0,
+			"seats_available": 3
 		}
 	},
 	{
@@ -233,8 +233,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "14:30",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 2
 		}
 	},
 	{
@@ -247,8 +247,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "10:30",
-			"taking_passengers": true,
-			"seats_available": 1,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -261,8 +261,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 4
 		}
 	},
 	{
@@ -276,7 +276,7 @@
 			"date": "2021-11-02",
 			"time": "12:00",
 			"taking_passengers": false,
-			"seats_available": 3,
+			"seats_available": 0
 		}
 	},
 	{
@@ -290,7 +290,7 @@
 			"date": "2021-11-02",
 			"time": "16:30",
 			"taking_passengers": false,
-			"seats_available": 1,
+			"seats_available": 0
 		}
 	},
 	{
@@ -304,7 +304,7 @@
 			"date": "2021-11-02",
 			"time": "11:00",
 			"taking_passengers": true,
-			"seats_available": 2,
+			"seats_available": 3
 		}
 	},
 	{
@@ -317,8 +317,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:30",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -331,8 +331,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": true,
-			"seats_available": 4,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -346,7 +346,7 @@
 			"date": "2021-11-02",
 			"time": "13:30",
 			"taking_passengers": true,
-			"seats_available": 3,
+			"seats_available": 4
 		}
 	},
 	{
@@ -360,7 +360,7 @@
 			"date": "2021-11-02",
 			"time": "12:00",
 			"taking_passengers": false,
-			"seats_available": 2,
+			"seats_available": 0
 		}
 	},
 	{
@@ -373,8 +373,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "14:00",
-			"taking_passengers": false,
-			"seats_available": 4,
+			"taking_passengers": true,
+			"seats_available": 1
 		}
 	},
 	{
@@ -387,8 +387,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "13:00",
-			"taking_passengers": false,
-			"seats_available": 2,
+			"taking_passengers": true,
+			"seats_available": 2
 		}
 	},
 	{
@@ -401,8 +401,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": true,
-			"seats_available": 1,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -415,8 +415,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "10:30",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -429,8 +429,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "13:00",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -443,8 +443,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "16:00",
-			"taking_passengers": true,
-			"seats_available": 2,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -457,8 +457,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:00",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 2
 		}
 	},
 	{
@@ -472,7 +472,7 @@
 			"date": "2021-11-02",
 			"time": "14:00",
 			"taking_passengers": true,
-			"seats_available": 1,
+			"seats_available": 4
 		}
 	},
 	{
@@ -486,7 +486,7 @@
 			"date": "2021-11-02",
 			"time": "14:00",
 			"taking_passengers": true,
-			"seats_available": 0,
+			"seats_available": 3
 		}
 	},
 	{
@@ -500,7 +500,7 @@
 			"date": "2021-11-02",
 			"time": "15:00",
 			"taking_passengers": true,
-			"seats_available": 1,
+			"seats_available": 1
 		}
 	},
 	{
@@ -514,7 +514,7 @@
 			"date": "2021-11-02",
 			"time": "16:30",
 			"taking_passengers": true,
-			"seats_available": 1,
+			"seats_available": 2
 		}
 	},
 	{
@@ -527,8 +527,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "15:30",
-			"taking_passengers": true,
-			"seats_available": 4,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -541,8 +541,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:00",
-			"taking_passengers": false,
-			"seats_available": 2,
+			"taking_passengers": true,
+			"seats_available": 1
 		}
 	},
 	{
@@ -556,7 +556,7 @@
 			"date": "2021-11-02",
 			"time": "12:00",
 			"taking_passengers": true,
-			"seats_available": 1,
+			"seats_available": 2
 		}
 	},
 	{
@@ -570,7 +570,7 @@
 			"date": "2021-11-02",
 			"time": "10:30",
 			"taking_passengers": false,
-			"seats_available": 2,
+			"seats_available": 0
 		}
 	},
 	{
@@ -584,7 +584,7 @@
 			"date": "2021-11-02",
 			"time": "13:30",
 			"taking_passengers": false,
-			"seats_available": 0,
+			"seats_available": 0
 		}
 	},
 	{
@@ -597,8 +597,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "10:30",
-			"taking_passengers": false,
-			"seats_available": 1,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -611,8 +611,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "10:30",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -625,8 +625,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "10:00",
-			"taking_passengers": true,
-			"seats_available": 1,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -640,7 +640,7 @@
 			"date": "2021-11-02",
 			"time": "11:00",
 			"taking_passengers": true,
-			"seats_available": 3,
+			"seats_available": 1
 		}
 	},
 	{
@@ -653,8 +653,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:30",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 3
 		}
 	},
 	{
@@ -668,7 +668,7 @@
 			"date": "2021-11-02",
 			"time": "15:30",
 			"taking_passengers": true,
-			"seats_available": 2,
+			"seats_available": 1
 		}
 	},
 	{
@@ -681,8 +681,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:00",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -695,8 +695,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "10:00",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -710,7 +710,7 @@
 			"date": "2021-11-02",
 			"time": "16:30",
 			"taking_passengers": false,
-			"seats_available": 0,
+			"seats_available": 0
 		}
 	},
 	{
@@ -724,7 +724,7 @@
 			"date": "2021-11-02",
 			"time": "12:00",
 			"taking_passengers": true,
-			"seats_available": 2,
+			"seats_available": 2
 		}
 	},
 	{
@@ -737,8 +737,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "16:30",
-			"taking_passengers": false,
-			"seats_available": 3,
+			"taking_passengers": true,
+			"seats_available": 1
 		}
 	},
 	{
@@ -752,7 +752,7 @@
 			"date": "2021-11-02",
 			"time": "15:30",
 			"taking_passengers": true,
-			"seats_available": 2,
+			"seats_available": 1
 		}
 	},
 	{
@@ -766,7 +766,7 @@
 			"date": "2021-11-02",
 			"time": "11:30",
 			"taking_passengers": true,
-			"seats_available": 2,
+			"seats_available": 4
 		}
 	},
 	{
@@ -779,8 +779,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "16:00",
-			"taking_passengers": false,
-			"seats_available": 2,
+			"taking_passengers": true,
+			"seats_available": 1
 		}
 	},
 	{
@@ -793,8 +793,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "13:30",
-			"taking_passengers": true,
-			"seats_available": 2,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -807,8 +807,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:30",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -821,8 +821,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:00",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -835,8 +835,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "16:00",
-			"taking_passengers": true,
-			"seats_available": 3,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -850,7 +850,7 @@
 			"date": "2021-11-02",
 			"time": "15:30",
 			"taking_passengers": false,
-			"seats_available": 3,
+			"seats_available": 0
 		}
 	},
 	{
@@ -863,8 +863,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "12:00",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 1
 		}
 	},
 	{
@@ -878,7 +878,7 @@
 			"date": "2021-11-02",
 			"time": "11:00",
 			"taking_passengers": false,
-			"seats_available": 2,
+			"seats_available": 0
 		}
 	},
 	{
@@ -891,8 +891,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "14:00",
-			"taking_passengers": true,
-			"seats_available": 0,
+			"taking_passengers": false,
+			"seats_available": 0
 		}
 	},
 	{
@@ -906,7 +906,7 @@
 			"date": "2021-11-02",
 			"time": "16:30",
 			"taking_passengers": true,
-			"seats_available": 0,
+			"seats_available": 4
 		}
 	},
 	{
@@ -920,7 +920,7 @@
 			"date": "2021-11-02",
 			"time": "13:30",
 			"taking_passengers": false,
-			"seats_available": 0,
+			"seats_available": 0
 		}
 	},
 	{
@@ -934,7 +934,7 @@
 			"date": "2021-11-02",
 			"time": "12:30",
 			"taking_passengers": true,
-			"seats_available": 2,
+			"seats_available": 3
 		}
 	},
 	{
@@ -947,8 +947,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "15:30",
-			"taking_passengers": false,
-			"seats_available": 1,
+			"taking_passengers": true,
+			"seats_available": 1
 		}
 	},
 	{
@@ -961,8 +961,8 @@
 			"destination_state": "CA",
 			"date": "2021-11-02",
 			"time": "11:30",
-			"taking_passengers": false,
-			"seats_available": 0,
+			"taking_passengers": true,
+			"seats_available": 4
 		}
 	},
 	{
@@ -976,7 +976,7 @@
 			"date": "2021-11-02",
 			"time": "10:00",
 			"taking_passengers": true,
-			"seats_available": 0,
+			"seats_available": 4
 		}
-	},
+	}
 ]
