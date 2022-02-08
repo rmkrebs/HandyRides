@@ -5,6 +5,9 @@
     "\\HandyRides\\HandyRides",
     "\\HandyRides\\rides",
     "\\HandyRides\\rides\\fixtures",
+    "\\HandyRides\\rides\\migrations",
+    "\\HandyRides\\rides\\migrations\\__pycache__",
+    "\\HandyRides\\rides\\__pycache__",
     "\\HandyRides\\static",
     "\\HandyRides\\templates"
   ],
