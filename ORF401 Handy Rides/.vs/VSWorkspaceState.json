@@ -4,13 +4,11 @@
     "\\HandyRides",
     "\\HandyRides\\HandyRides",
     "\\HandyRides\\rides",
-    "\\HandyRides\\rides\\fixtures",
-    "\\HandyRides\\rides\\migrations",
     "\\HandyRides\\rides\\migrations\\__pycache__",
-    "\\HandyRides\\rides\\__pycache__",
+    "\\HandyRides\\rides\\templates",
     "\\HandyRides\\static",
     "\\HandyRides\\templates"
   ],
-  "SelectedNode": "\\HandyRides\\rides\\fixtures\\riders.json",
+  "SelectedNode": "\\HandyRides\\HandyRides\\urls.py",
   "PreviewInSolutionExplorer": false
 }
