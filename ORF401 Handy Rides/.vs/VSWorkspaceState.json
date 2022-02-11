@@ -4,11 +4,10 @@
     "\\HandyRides",
     "\\HandyRides\\HandyRides",
     "\\HandyRides\\rides",
-    "\\HandyRides\\rides\\migrations\\__pycache__",
     "\\HandyRides\\rides\\templates",
     "\\HandyRides\\static",
     "\\HandyRides\\templates"
   ],
-  "SelectedNode": "\\HandyRides\\HandyRides\\urls.py",
+  "SelectedNode": "\\HandyRides\\templates\\base.html",
   "PreviewInSolutionExplorer": false
 }
