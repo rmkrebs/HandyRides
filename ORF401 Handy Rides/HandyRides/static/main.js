@@ -19,14 +19,10 @@ function setCookie(c_name,value,exdays) {
 function checkForm(form){
   var search = form.children[1].value;
 
-    if((search_City == "") && (search_State=="")){
-      return false;
+    //part below is making it not load if nothing is put into either of the search fields
+    //if((search_City =="") && (search_State=="")){
+  return false;
     }
-       //alert("Error: error message");
-      // form.fieldname.focus();
-      // return false;
-
-
-  //  ...
-    return true;
-  }
+      //part below is attempting to create the pop up for elon musk
+      //if (search_City =="Elon Musk") {
+        //alert("He's not here");
