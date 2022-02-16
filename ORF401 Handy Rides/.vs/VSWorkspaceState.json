@@ -4,10 +4,11 @@
     "\\HandyRides",
     "\\HandyRides\\HandyRides",
     "\\HandyRides\\rides",
+    "\\HandyRides\\rides\\fixtures",
     "\\HandyRides\\rides\\templates",
     "\\HandyRides\\static",
     "\\HandyRides\\templates"
   ],
-  "SelectedNode": "\\HandyRides\\templates\\base.html",
+  "SelectedNode": "\\HandyRides\\db.sqlite3",
   "PreviewInSolutionExplorer": false
 }
