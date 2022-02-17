@@ -19,11 +19,9 @@ def index(request):
     search_City = request.GET["search_City"]
     if "search_State" in request.GET:
         search_State = request.GET["search_State"]
-        context["people"] = Person.objects.filter(destination_state__icontains=search_State) & (Person.objects.filter(
-        origination__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City))
+        context["people"] = Person.objects.filter(destination_state__icontains=search_State) & (Person.objects.filter(origination__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City))
     else:
-        context["people"] = Person.objects.filter(
-        origination__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City)
+        context["people"] = Person.objects.filter(origination__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City)
   else:
     if "search_State" in request.GET:
         search_State = request.GET["search_State"]
