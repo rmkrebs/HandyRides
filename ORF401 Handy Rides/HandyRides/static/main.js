@@ -28,7 +28,7 @@ function checkForm(form){
       return false;
     }
 
-    if (search_City =="Elon Musk") {
+    if (search_City.toUpperCase() =="ELON MUSK") {
         alert("He's not here");
       }
     }
