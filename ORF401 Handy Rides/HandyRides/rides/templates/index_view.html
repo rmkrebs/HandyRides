@@ -20,6 +20,7 @@
 
 <form action="{% url 'rides:index' %}" method="get">
     {{ form }}
-    <input type="submit" value="Submit" onclick="return checkForm();">
+    <input type="submit" value="Submit" onclick="return checkForm(this.parentNode);">
 </form>
+
 {% endblock %}
