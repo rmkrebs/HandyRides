@@ -27,7 +27,7 @@ function checkForm(form){
     if((search_City =="") && (search_State=="")){
       return false;
     }
-      //part below is attempting to create the pop up for elon musk
+
     if (search_City =="Elon Musk") {
         alert("He's not here");
       }
