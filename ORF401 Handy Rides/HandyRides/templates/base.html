@@ -4,6 +4,12 @@
 <head>
     <script src="{% static 'main.js' %}"></script>
     <link rel="stylesheet" href="{% static 'main.css' %}" />
+<script>
+if (getCookie('testcookie')==null){
+  window.location.href = "/";
+  setCookie('testcookie',"testuser",30);
+}
+</script>
 </head>
 
 <body bgcolor="DeepSkyBlue" text="black">
