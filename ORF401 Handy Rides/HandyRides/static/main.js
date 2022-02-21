@@ -17,7 +17,8 @@ function setCookie(c_name,value,exdays) {
 }
 
 function checkForm(form){
-  var search = form.children[1].value;
+  var search_City = form.children[1].value;
+  var search_State = form.children[1].value;
 
     //part below is making it not load if nothing is put into either of the search fields
     //if((search_City =="") && (search_State=="")){
