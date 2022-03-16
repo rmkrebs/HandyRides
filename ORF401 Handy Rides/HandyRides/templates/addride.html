@@ -1,0 +1,36 @@
+{% load static %}
+
+<html>
+<head>
+    <script src="{% static 'main.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'main.css' %}" />
+    <script>
+        if (getCookie('testcookie') == null) {
+            window.location.href = "/";
+            setCookie('testcookie', "testuser", 30);
+        }
+    </script>
+</head>
+
+<body bgcolor="DeepSkyBlue" text="black">
+    <center>
+        <img src="{% static 'logo5.jpg' %}" alt="Image of logo">
+        <img src="{% static 'dudes_in_car2.jpg' %}" alt="Image of Car">
+
+        {% block content %}
+        {% endblock %}
+
+    </center>
+</body>
+</html>
+<audio controls autoplay loop>
+    <source src="{% static 'Vanessa_Carlton_-_A_Thousand_Miles.mp3' %}" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+
+<form action="{% url 'rides:create' %}" method="post">
+    {% csrf_token %}
+    {{ new_ride_form }}
+    <input type="submit" value="Submit">
+</form>
+
