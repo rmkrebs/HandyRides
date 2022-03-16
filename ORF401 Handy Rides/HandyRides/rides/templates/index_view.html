@@ -2,8 +2,17 @@
 
 {% block content %}
 <div class="main">
+
   <table>
+    <tr>
+      <thead>
+        First Name Origination Destination City Destination State Date Time Taking Passengers Seats Available
+      </thead>
+    </tr>
+
+    <tbody>
       {% for person in people %}
+
       <tr>
           <td>{{ person.first_name }}</td>
           <td>{{ person.origination }}</td>
@@ -15,6 +24,8 @@
           <td>{{ person.seats_available }}</td>
       </tr>
       {% endfor %}
+    </tbody>
+
   </table>
 </div>
 
