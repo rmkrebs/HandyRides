@@ -38,8 +38,8 @@ def index(request):
   return render(request, "index_view.html", context)
 
   def create(request):
-  if request.method == "POST":
-    new_ride = NewRideForm(request.POST)
-    new_ride.save()
+    if request.method == "POST":
+     new_ride = NewRideForm(request.POST)
+     new_ride.save()
 
   return redirect("/rides")
