@@ -1,7 +1,6 @@
 
 
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
 from .models import Person
 
 # relative import of forms
