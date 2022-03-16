@@ -27,4 +27,5 @@ class Person(models.Model):
   blind = models.BooleanField(default=False)
   prefered_music = models.CharField(max_length=64)
   pets = models.CharField(max_length=64)
-  kids = models.CharField(max_length=64)
+  kids = models,CharField(max_length=64)
+  
