@@ -2,9 +2,7 @@
 
 {% block content %}
 
-<br>
-  <a href="{% url 'rides:index' %}">Click Here to Find Your Ride</a>
-</body>
+
 <form action="{% url 'rides:create' %}" method="post">
     {% csrf_token %}
     {{ new_ride_form }}
