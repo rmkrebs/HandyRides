@@ -5,10 +5,11 @@
     "\\HandyRides\\HandyRides",
     "\\HandyRides\\rides",
     "\\HandyRides\\rides\\fixtures",
+    "\\HandyRides\\rides\\migrations",
     "\\HandyRides\\rides\\templates",
     "\\HandyRides\\static",
     "\\HandyRides\\templates"
   ],
-  "SelectedNode": "\\HandyRides\\db.sqlite3",
+  "SelectedNode": "\\HandyRides\\rides\\forms.py",
   "PreviewInSolutionExplorer": false
 }
