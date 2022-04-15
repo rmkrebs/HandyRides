@@ -7,9 +7,8 @@
     "\\HandyRides\\rides\\fixtures",
     "\\HandyRides\\rides\\migrations",
     "\\HandyRides\\rides\\templates",
-    "\\HandyRides\\static",
     "\\HandyRides\\templates"
   ],
-  "SelectedNode": "\\HandyRides\\rides\\forms.py",
+  "SelectedNode": "\\HandyRides\\rides\\models.py",
   "PreviewInSolutionExplorer": false
 }
