@@ -21,7 +21,10 @@ from django.views.generic import TemplateView
 urlpatterns = [
     path('', TemplateView.as_view(template_name="index.html")),
     path('admin/', admin.site.urls),
-    path('rides/', include('rides.urls')),
+    path('profiles/', include('profiles.urls')),
     path('', TemplateView.as_view(template_name="index.html")),
-    path('addride/', TemplateView.as_view(template_name="addride.html"))
+    path('addprofile/', TemplateView.as_view(template_name="addprofile.html")),
+    path('findmatch/', TemplateView.as_view(template_name="findmatch.html")),
+    path('findhousing/', TemplateView.as_view(template_name="findhousing.html")),
+    path('events', TemplateView.as_view(template_name="events.html"))
 ]

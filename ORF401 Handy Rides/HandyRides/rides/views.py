@@ -1,12 +1,12 @@
 
 
 from django.shortcuts import render, redirect
-from .models import Person
+from .models import Profile
 
 # relative import of forms
-from .forms import RideForm
+from .forms import ProfileForm
 
-from .forms import RideForm, NewRideForm
+from .forms import ProfileForm, NewProfileForm
 
 # Create your views here.
 
@@ -22,25 +22,25 @@ def index(request):
     search_City = request.GET["search_City"]
     if "search_State" in request.GET:
         search_State = request.GET["search_State"]
-        context["people"] = Person.objects.filter(destination_state__icontains=search_State) & (Person.objects.filter(origination_city__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City))
+        context["people"] = Profile.objects.filter(destination_state__icontains=search_State) & (Profile.objects.filter(origination_city__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City))
     else:
-        context["people"] = Person.objects.filter(origination_city__icontains=search_City) | Person.objects.filter(destination_city__icontains=search_City)
+        context["people"] = Profile.objects.filter(origination_city__icontains=search_City) | Profile.objects.filter(destination_city__icontains=search_City)
   else:
     if "search_State" in request.GET:
         search_State = request.GET["search_State"]
-        context["people"] = Person.objects.filter(destination_state__icontains=search_State)
+        context["people"] = Profile.objects.filter(destination_state__icontains=search_State)
 
-  context["form"] = RideForm()
+  context["form"] = ProfileForm()
 
-  context["new_ride_form"] = NewRideForm()
+  context["new_profile_form"] = NewProfileForm()
 
   return render(request, "index_view.html", context)
 
 def create(request):
     context ={}
-    context["new_ride_form"] = NewRideForm()
+    context["new_profile_form"] = NewProfileForm()
     if request.method == "POST":
-        new_ride = NewRideForm(request.POST)
-        new_ride.save()
-        return redirect("/addride")
-    return render(request,"addride.html", context)
+        new_profile = NewProfileForm(request.POST)
+        new_profile.save()
+        return redirect("/addprofile")
+    return render(request,"addprofile.html", context)

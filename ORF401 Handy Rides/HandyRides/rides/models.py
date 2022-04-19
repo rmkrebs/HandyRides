@@ -2,30 +2,32 @@ from django.db import models
 
 # Create your models here.
 
-
-class Person(models.Model):
+Male_Female = (
+	('male','MALE'),
+	('female','FEMALE')
+)
+class Profile(models.Model):
   first_name = models.CharField(max_length=64)
-  last_name = models.CharField(max_length=64)
-  email = models.CharField(max_length=64)
-  origination_city = models.CharField(max_length=64)
-  origination_state = models.CharField(max_length=2)
-  destination_city = models.CharField(max_length=64)
-  destination_state = models.CharField(max_length=2)
-  date = models.DateField()
-  time = models.TimeField()
-  taking_passengers = models.BooleanField(default=False)
-  seats_available = models.IntegerField(default=0)
-  car_make = models.CharField(max_length=64)
-  car_electric = models.BooleanField(default=False)
-  car_range = models.CharField(max_length=64)
-  premium = models.BooleanField(default=False)
-  blood_type = models.CharField(max_length=3)
-  dnr_order = models.BooleanField(default=False)
-  social = models.CharField(max_length=64)
-  smoker = models.BooleanField(default=False)
-  convicted_felon = models.BooleanField(default=False)
-  blind = models.BooleanField(default=False)
-  prefered_music = models.CharField(max_length=64)
-  pets = models.CharField(max_length=64)
-  kids = models.CharField(max_length=64)
-  
+  sex = models.CharField(max_length=6, choices=Male_Female)
+  age = models.IntegerField()
+  school = models.CharField(max_length=64)
+  interning_at = models.CharField(max_length=64)
+  hobbies = models.CharField(max_length=64)
+  bio_blurb = models.CharField(max_length=150)
+
+
+class Events(models.Model):
+	event_name = models.CharField(max_length=64)
+	event_type = models.CharField(max_length=64)
+	drinks = models.BinaryField()
+	entry_fee = models.IntegerField()
+
+
+class Housing(models.Model);
+	address = models.CharField(max_length=150)
+	num_bedrooms = models.IntegerField()
+	num_bathrooms = models.IntegerField()
+	pets = models.BinaryField()
+	furnished = models.BinaryField()
+	rent = models.IntegerField()
+	
