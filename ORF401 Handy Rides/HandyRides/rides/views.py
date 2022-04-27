@@ -12,7 +12,7 @@ from .forms import RideForm, NewRideForm
 
 
 
-def index(request):
+def index_rides(request):
 
   context = {}
 
@@ -36,7 +36,7 @@ def index(request):
 
   return render(request, "index_view.html", context)
 
-def create(request):
+def create_rides(request):
     context ={}
     context["new_ride_form"] = NewRideForm()
     if request.method == "POST":

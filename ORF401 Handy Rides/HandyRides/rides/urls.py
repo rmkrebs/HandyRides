@@ -4,7 +4,7 @@ from . import views
 
 app_name = 'rides'
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('create', views.create, name='create')
+    path('', views.index_rides, name='index_rides'),
+    path('create', views.create_rides, name='create_rides')
 
 ]
