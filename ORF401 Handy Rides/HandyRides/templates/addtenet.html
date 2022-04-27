@@ -1,10 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+<br>
+<a href="/tenets">Already have a Profile? Browse Possible Roommates</a>
 
-<form action="{% url 'rides:index_ride' %}" method="get">
-    {{ form }}
-    <input type="submit" value="Submit" onclick="return checkForm(this.parentNode);">
+<form action="{% url 'rides:create_ride' %}" method="post">
+    {% csrf_token %}
+    {{ new_ride_form }}
+    <input type="submit" value="Submit">
 </form>
+
 
 {% endblock %}
