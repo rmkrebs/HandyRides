@@ -1,7 +1,7 @@
 
 
 from django.shortcuts import render, redirect
-from .models import Person
+from .models import Person, Tenet, Event, Apartment
 
 # relative import of forms
 from .forms import RideForm, NewRideForm, TenetForm, NewTenetForm, ApartmentForm, NewApartmentForm, EventForm, NewEventForm
@@ -13,7 +13,7 @@ def index_event(request):
 
 def create_event(request):
     context = {}
-    ontext["new_event_form"] = NewEventForm()
+    context["new_event_form"] = NewEventForm()
     if request.method == "POST":
         new_event = NewEventForm(request.POST)
         new_event.save()
@@ -25,7 +25,7 @@ def index_tenet(request):
 
 def create_tenet(request):
     context = {}
-    ontext["new_tenet_form"] = NewTenetForm()
+    context["new_tenet_form"] = NewTenetForm()
     if request.method == "POST":
         new_tenet = NewTenetForm(request.POST)
         new_tenet.save()
@@ -38,7 +38,7 @@ def index_apartment(request):
 
 def create_apartment(request):
     context = {}
-    ontext["new_apartment_form"] = NewApartmentForm()
+    context["new_apartment_form"] = NewApartmentForm()
     if request.method == "POST":
         new_apartment = NewApartmentForm(request.POST)
         new_apartment.save()
