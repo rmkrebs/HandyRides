@@ -2,6 +2,8 @@
 
 {% block content %}
 
+
+
 <form action="{% url 'rides:index_rides' %}" method="post">
     {% csrf_token %}
     {{ new_ride_form }}
