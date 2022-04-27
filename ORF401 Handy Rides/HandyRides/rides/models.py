@@ -29,3 +29,33 @@ class Person(models.Model):
   pets = models.CharField(max_length=64)
   kids = models.CharField(max_length=64)
   
+
+
+class Tenet(models.Model):
+	name = models.CharField(max_length=64)
+	city = models.CharField(max_length=64)
+	age_21_up = models.BooleanField(default=False)
+	job_industry = models.CharField(max_length=64)
+	university = models.CharField(max_length=64)
+	bio = models.CharField(max_length=250)
+	hobbies = models.CharField(max_length=64)
+	
+
+class Apartment(models.Model):
+	address = models.CharField(max_length=128)
+	city = models.CharField(max_length=64)
+	rent = models.IntegerField(default=0)
+	ac = models.BooleanField(default=False)
+	bedrooms = models.IntegerField(default=0)
+	bathrooms = models.IntegerField(default=0)
+	amenities = models.CharField(max_length=250)
+
+class Event(models.Model):
+	address = models.CharField(max_length=128)
+	city = models.CharField(max_length=64)
+	date = models.DateField()
+	time = models.TimeField()
+	age_21_up = models.BooleanField(default=False)
+	byob = models.BooleanField(default=False)
+	entry_fee = models.IntegerField(default=0)
+	description = models.CharField(max_length=250) 

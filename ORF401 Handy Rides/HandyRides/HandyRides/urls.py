@@ -22,6 +22,11 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name="index.html")),
     path('admin/', admin.site.urls),
     path('rides/', include('rides.urls')),
-    path('', TemplateView.as_view(template_name="index.html")),
-    path('addride/', TemplateView.as_view(template_name="addride.html"))
+    path('addride/', TemplateView.as_view(template_name="addride.html")),
+    path('events/', TemplateView.as_view(template_name="events.html")),
+    path('addevent/', TemplateView.as_view(template_name="addevent.html")),
+    path('tenets/', TemplateView.as_view(template_name="tenets.html")),
+    path('addtenet/', TemplateView.as_view(template_name="addtenet.html")),
+    path('apartments/', TemplateView.as_view(template_name="apartments.html")),
+    path('addapartment/', TemplateView.as_view(template_name="addapartment.html"))
 ]
