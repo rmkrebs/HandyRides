@@ -3,4 +3,12 @@
 {% block content %}
 <br>
 <a href="/apartments">Back to Browsing Appartments</a>
+
+
+<form action="{% url 'rides:create_apartment' %}" method="post">
+    {% csrf_token %}
+    {{ new_apartment_form }}
+    <input type="submit" value="Submit">
+</form>
+
 {% endblock %}

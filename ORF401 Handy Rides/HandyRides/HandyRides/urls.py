@@ -17,16 +17,17 @@ from django.views.generic import TemplateView
 from django.contrib import admin
 from django.urls import include, path
 from django.views.generic import TemplateView
+from rides import views
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name="index.html")),
     path('admin/', admin.site.urls),
     path('rides/', include('rides.urls')),
     path('addride/', TemplateView.as_view(template_name="addride.html")),
-    path('events/', TemplateView.as_view(template_name="events.html")),
-    path('addevent/', TemplateView.as_view(template_name="addevent.html")),
-    path('tenets/', TemplateView.as_view(template_name="tenets.html")),
-    path('addtenet/', TemplateView.as_view(template_name="addtenet.html")),
-    path('apartments/', TemplateView.as_view(template_name="apartments.html")),
-    path('addapartment/', TemplateView.as_view(template_name="addapartment.html"))
+    path('events/', views.index_event,name="index_event"),
+    path('addevent/', views.create_event,name="create_event"),
+    path('tenets/', views.index_tenet,name="index_tenet"),
+    path('addtenet/', views.create_tenet,name="create_tenet"),
+    path('apartments/', views.index_apartment,name="index_apartment"),
+    path('addapartment/', views.create_apartment,name="create_apartment")
 ]

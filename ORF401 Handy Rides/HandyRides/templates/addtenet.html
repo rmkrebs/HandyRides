@@ -4,9 +4,9 @@
 <br>
 <a href="/tenets">Already have a Profile? Browse Possible Roommates</a>
 
-<form action="{% url 'rides:create_ride' %}" method="post">
+<form action="{% url 'rides:create_tenet' %}" method="post">
     {% csrf_token %}
-    {{ new_ride_form }}
+    {{ new_tenet_form }}
     <input type="submit" value="Submit">
 </form>
 

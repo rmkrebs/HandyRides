@@ -29,7 +29,7 @@ class ApartmentForm(forms.Form):
     search_AC = forms.BooleanField(label='AC', required = False)
     search_Bedrooms = forms.IntegerField(label='# of Bedrooms', required = False)
     search_Bathrooms = forms.IntegerField(label='# of Bathrooms', required = False)
-    search_amenitites = forms.CharField(label='Amenitites', max_length=64, required = False)
+    search_amenities = forms.CharField(label='Amenities', max_length=64, required = False)
 
 class NewApartmentForm(forms.ModelForm):
     class Meta:
@@ -39,7 +39,7 @@ class NewApartmentForm(forms.ModelForm):
 class EventForm(forms.Form):
     search_City = forms.CharField(label='City', max_length=64, required = False)
     search_Date = forms.DateField(label='Date',required = False)
-    search_age_21_up = forms.BooleanField(label='Over 21', required = False)
+    search_age_21_up = forms.BooleanField(label='Over 21', required = False, initial = False)
     
 
 class NewEventForm(forms.ModelForm):

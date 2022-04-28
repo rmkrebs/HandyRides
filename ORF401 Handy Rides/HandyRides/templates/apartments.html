@@ -3,4 +3,30 @@
 {% block content %}
 <br>
 <a href="/addapartment">Add a Location</a>
+
+
+<div class="main">
+    <table>
+        <tbody>
+            {% for apartment in apartments %}
+            <tr>
+                <td>{{ apartment.address}}</td>
+                <td>{{ apartment.city}}</td>
+                <td>{{ apartment.rent}}</td>
+                <td>{{ apartment.ac}}</td>
+                <td>{{ apartment.bedrooms}}</td>
+                <td>{{ apartment.bathrooms}}</td>
+                <td>{{ apartment.amenities}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+<form action="{% url 'rides:index_apartment' %}" method="get">
+    {{ apartment_form }}
+    <input type="submit" value="Submit" onclick="return checkForm(this.parentNode);">
+</form>
+
 {% endblock %}

@@ -3,4 +3,31 @@
 {% block content %}
 <br>
 <a href="/addevent">Add a Event</a>
+
+<div class="main">
+    <table>
+        <tbody>
+            {% for event in events %}
+            <tr>
+                <td>{{ event.name}}</td>
+                <td>{{ event.city}}</td>
+                <td>{{ event.address}}</td>
+                <td>{{ event.date}}</td>
+                <td>{{ event.time}}</td>
+                <td>{{ event.age_21_up}}</td>
+                <td>{{ event.byob}}</td>
+                <td>{{ event.entry_fee}}</td>
+                <td>{{ event.description}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+<form action="{% url 'rides:index_event' %}" method="get">
+    {{ event_form }}
+    <input type="submit" value="Submit" onclick="return checkForm(this.parentNode);">
+</form>
+
 {% endblock %}

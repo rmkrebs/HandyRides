@@ -1,6 +1,30 @@
 {% extends "base.html" %}
 
 {% block content %}
-<
+
+<div class="main">
+    <table>
+        <tbody>
+            {% for tenet in people %}
+            <tr>
+                <td>{{ tenet.name}}</td>
+                <td>{{ tenet.city}}</td>
+                <td>{{ tenet.age_21_up}}</td>
+                <td>{{ tenet.job_industry}}</td>
+                <td>{{ tenet.university}}</td>
+                <td>{{ tenet.bio}}</td>
+                <td>{{ tenet.hobbies}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+<form action="{% url 'rides:index_tenet' %}" method="get">
+    {{ tenet_form }}
+    <input type="submit" value="Submit" onclick="return checkForm(this.parentNode);">
+</form>
+
 
 {% endblock %}

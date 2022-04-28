@@ -51,6 +51,7 @@ class Apartment(models.Model):
 	amenities = models.CharField(max_length=250)
 
 class Event(models.Model):
+	name = models.CharField(max_length=64, default="N/a")
 	address = models.CharField(max_length=128)
 	city = models.CharField(max_length=64)
 	date = models.DateField()
